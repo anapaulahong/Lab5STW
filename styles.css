@@ -3,20 +3,20 @@ body{
 }
 
 :root{
-    --color-primario: #ff6600;
-    --color-secundario: #ff9900;
-    --color-terciario: #ffcc00;
-    --color-cuaternario: #ffcc99;
-    --color-chat: lightblue;
-    --fuente-x: 'Times New Roman', Times, serif;
+    --color-primario: #FAF9F3;
+    --color-secundario: #C0CFA0;
+    --color-terciario: #FAF9F3;
+    --color-cuaternario: #FAEFD1 ;
+    --color-chat: #FAF9F3;
+    --fuente-x: 'Verdana', Times, serif;
 }
 
 
 #contenedor{
-    background-color: white;
+    background-color: #FBFBF9;
     height: calc(100vh - 0px);
     display: grid;
-    font-family: var(--fuente-x);
+    font-family: 'Verdana', Times, serif;
     border: 1px solid black;
     grid-template-columns: 20% 80%;
     grid-template-rows: 85% 15%;
@@ -25,7 +25,7 @@ body{
 #listado-chats{
     background-color: var(--color-secundario);
     border: 1px solid black;
-    padding: 8px;
+    padding: 9px;
     display: flex;
     flex-direction: column;
     overflow: scroll;
