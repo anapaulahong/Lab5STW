@@ -36,6 +36,7 @@ function crearChat(texto, id){
     nuevoChat.className = "chat";
     nuevoChat.id = id;
     nuevoChat.innerText = texto;
+    const textoLimitado = texto.slice(0, 140);
     return nuevoChat;
 }
 
